@@ -1,0 +1,1 @@
+print("OFF") if int(input())%2==0 else print("ON")
