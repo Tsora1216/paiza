@@ -1,0 +1,5 @@
+S=input()
+pwak="+"*(len(S)+2)
+print(pwak)
+print("+"+S+"+")
+print(pwak)
