@@ -1,4 +1,5 @@
 N=int(input())
-s=list(map(str,input().split(" ")))
-for i in s:
-    print(i)
+for i in range(N):
+    s=input()
+    if i==7:
+        print(s)
