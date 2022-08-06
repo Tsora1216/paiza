@@ -1,0 +1,1 @@
+print(500-int(input())-int(input()))
