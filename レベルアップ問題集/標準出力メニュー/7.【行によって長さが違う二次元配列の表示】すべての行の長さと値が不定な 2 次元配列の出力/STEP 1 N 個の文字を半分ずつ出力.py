@@ -1,5 +1,5 @@
-import numpy as np
-list=np.arange(1,int(input())+1)
-re_list=list.reshape(2,4)
-for i in range(len(re_list)):
-    print(*re_list[i])
+N=int(input())
+Alist=[_ for _ in range(1,N//2+1)]
+Blist=[_ for _ in range(N//2+1,N+1)]
+print(*Alist)
+print(*Blist)
