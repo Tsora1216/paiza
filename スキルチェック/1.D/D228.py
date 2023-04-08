@@ -1,0 +1,12 @@
+S,T=list(map(int,input().split()))
+H,M=list(map(int,input().split()))
+if(H<=S):
+    if(H==S):
+        if(M<=T):
+            print("Yes")
+        else:
+            print("No")
+    else:
+        print("Yes")
+else:
+    print("No")
