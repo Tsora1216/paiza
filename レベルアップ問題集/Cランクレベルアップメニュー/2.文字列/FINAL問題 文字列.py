@@ -17,9 +17,11 @@ for i in range(n):
         h = str(h)
         m = str(m + b[2])
 
-    if h==24:
-        h=0
+    h=int(h)
+    if h>=24:
+        h=h-24
 
+    h=str(h)
     if len(h) == 1:
         h = "0" + h
     if len(m) == 1:
